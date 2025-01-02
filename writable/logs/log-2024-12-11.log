@@ -1,0 +1,407 @@
+INFO - 2024-12-11 10:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:31:55 --> mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list' in C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_sisw...', 0)
+#1 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_sisw...')
+#2 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_sisw...')
+#3 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_sisw...', Array, false)
+#4 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\absen_kedensari1\app\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\absen_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+#8 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+#9 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+#10 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\absen_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_...')
+#15 {main}
+CRITICAL - 2024-12-11 10:31:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+[Method: GET, Route: admin/absen-siswa/send]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:31:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:31:55 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 10:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:33:51 --> mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list' in C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_sisw...', 0)
+#1 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_sisw...')
+#2 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_sisw...')
+#3 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_sisw...', Array, false)
+#4 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\absen_kedensari1\app\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\absen_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+#8 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+#9 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+#10 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\absen_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_...')
+#15 {main}
+CRITICAL - 2024-12-11 10:33:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+[Method: GET, Route: admin/absen-siswa/send]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:33:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:33:51 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 10:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:35:27 --> mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list' in C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_sisw...', 0)
+#1 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_sisw...')
+#2 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_sisw...')
+#3 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_sisw...', Array, false)
+#4 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\absen_kedensari1\app\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\absen_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+#8 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+#9 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+#10 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\absen_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\absen_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_...')
+#15 {main}
+CRITICAL - 2024-12-11 10:35:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+[Method: GET, Route: admin/absen-siswa/send]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:35:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+CRITICAL - 2024-12-11 10:35:27 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.*, `tb_kelas`.`nama_kelas`
+FROM `tb_siswa`
+JOIN `tb_kelas` ON `tb_kelas`.`id_kelas` = `tb_siswa`.`id_kelas`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SiswaModel.php(45): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\DataAbsenSiswa.php(124): App\Models\SiswaModel->getAllSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 10:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 10:35:52 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 128.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 10:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:43:49 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 128.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:46:00 --> ErrorException: Undefined array key "tanggal"
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 128.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:46:24 --> ErrorException: Undefined variable $tanggal
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 128.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:48:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 135.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:50:00 --> ErrorException: Undefined variable $dataToSend
+[Method: GET, Route: admin/absen-siswa/send]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 153.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataToSend', 'C:\\xampp\\absen_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->sendNotification()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-11 11:53:41 --> ErrorException: Undefined array key "jurusan"
+[Method: GET, Route: admin/siswa/edit/2]
+in APPPATH\Views\admin\data\edit\edit-data-siswa.php on line 53.
+ 1 APPPATH\Views\admin\data\edit\edit-data-siswa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jurusan"', 'C:\\xampp\\absen_kedensari1\\app\\Views\\admin\\data\\edit\\edit-data-siswa.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\absen_kedensari1\\app\\Views\\admin\\data\\edit\\edit-data-siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data/edit/edit-data-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataSiswa.php(142): view('admin/data/edit/edit-data-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataSiswa->formEditSiswa('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absen_kedensari1\\public\\index.php')
+INFO - 2024-12-11 11:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 11:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 12:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
