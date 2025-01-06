@@ -15,7 +15,7 @@ switch ($context) {
 <div class="sidebar" data-color="<?= $sidebarColor; ?>" data-background-color="black" data-image="<?= base_url('assets/img/sidebar/sidebar-1.jpg'); ?>">
    <div class="logo">
       <a class="simple-text logo-normal">
-         <b>Operator<br>Petugas Absensi</b>
+         <b>Sistem Absensi<br>SDN Kedensari 1</b>
       </a>
    </div>
    <div class="sidebar-wrapper">

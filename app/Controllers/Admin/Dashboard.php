@@ -55,7 +55,7 @@ class Dashboard extends BaseController
       $today = $now->toDateString();
 
       $data = [
-         'title' => 'Dashboard',
+         'title' => 'Dashboard Absensi SDN Kedensari 1',
          'ctx' => 'dashboard',
 
          'siswa' => $this->siswaModel->getAllSiswaWithKelas(),
