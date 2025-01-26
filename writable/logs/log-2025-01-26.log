@@ -12,3 +12,1423 @@ INFO - 2025-01-26 16:19:34 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-01-26 16:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-01-26 16:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-01-26 16:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 16:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 16:53:26 --> ValueError: shell_exec(): Argument #1 ($command) cannot be empty
+[Method: POST, Route: admin/laporan/siswa]
+in APPPATH\Views\admin\generate-laporan\laporan-siswa.php on line 68.
+ 1 APPPATH\Views\admin\generate-laporan\laporan-siswa.php(68): shell_exec('')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\absensi_kedensari1\\app\\Views\\admin\\generate-laporan\\laporan-siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/generate-laporan/laporan-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\GenerateLaporan.php(127): view('admin/generate-laporan/laporan-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 16:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 17:45:22 --> Error: Call to undefined function kehadiran()
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Views\admin\absen\list-absen-siswa.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/absen/list-absen-siswa', [], true)
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(69): view('admin/absen/list-absen-siswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ambilDataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 17:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 17:45:24 --> Error: Call to undefined function kehadiran()
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Views\admin\absen\list-absen-siswa.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/absen/list-absen-siswa', [], true)
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(69): view('admin/absen/list-absen-siswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ambilDataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 17:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 17:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:00:51 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 85.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:11:18 --> TypeError: App\Models\PresensiSiswaModel::cekAbsen(): Argument #1 ($id) must be of type string|int, null given, called in C:\xampp\absensi_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php on line 132
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Models\PresensiSiswaModel.php on line 26.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(132): App\Models\PresensiSiswaModel->cekAbsen(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:24:57 --> TypeError: App\Models\PresensiSiswaModel::cekAbsen(): Argument #2 ($date) must be of type CodeIgniter\I18n\Time|string, null given, called in C:\xampp\absensi_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php on line 130
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Models\PresensiSiswaModel.php on line 26.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(130): App\Models\PresensiSiswaModel->cekAbsen('2', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:31:06 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:33:08 --> BadMethodCallException: Call to undefined method App\Models\PresensiSiswaModel::tambahPresensi
+[Method: POST, Route: admin/absen-siswa/simpan]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(133): CodeIgniter\Model->__call('tambahPresensi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 18:53:59 --> Error: Call to undefined function kehadiran()
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Views\admin\absen\list-absen-siswa.php on line 56.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/absen/list-absen-siswa', [], true)
+ 4 APPPATH\Controllers\Admin\DataAbsenSiswa.php(69): view('admin/absen/list-absen-siswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ambilDataSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 18:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-26 19:09:45 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\absensi_kedensari1\app\Controllers\Admin\DataAbsenSiswa.php(136): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+#10 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+#11 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\absensi_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absens...')
+#16 {main}
+CRITICAL - 2025-01-26 19:09:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/absen-siswa/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES (:id_siswa:, :id_kelas:, :id_kehadiran:, :jam_masuk:, :jam_keluar:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Admin\DataAbsenSiswa.php(136): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 19:09:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES ((\'2\',\'37\'), NULL, (1,1), (\'08:00\',\'08:00\'), (\'15:00\',\'15:00\'), (\'-\',\'-\'))')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES ((\'2\',\'37\'), NULL, (1,1), (\'08:00\',\'08:00\'), (\'15:00\',\'15:00\'), (\'-\',\'-\'))')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES (:id_siswa:, :id_kelas:, :id_kehadiran:, :jam_masuk:, :jam_keluar:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Admin\DataAbsenSiswa.php(136): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 19:09:45 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES ((\'2\',\'37\'), NULL, (1,1), (\'08:00\',\'08:00\'), (\'15:00\',\'15:00\'), (\'-\',\'-\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES ((\'2\',\'37\'), NULL, (1,1), (\'08:00\',\'08:00\'), (\'15:00\',\'15:00\'), (\'-\',\'-\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES ((\'2\',\'37\'), NULL, (1,1), (\'08:00\',\'08:00\'), (\'15:00\',\'15:00\'), (\'-\',\'-\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_presensi_siswa` (`id_siswa`, `id_kelas`, `id_kehadiran`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES (:id_siswa:, :id_kelas:, :id_kehadiran:, :jam_masuk:, :jam_keluar:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\DataAbsenSiswa.php(136): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:11:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 133.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:13:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 133.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:13:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 133.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:18:43 --> ErrorException: Undefined variable $tanggal
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 134.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 134)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:21:57 --> ParseError: syntax error, unexpected token "public"
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 159.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\DataAbsenSiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\DataAbsenSiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\DataAbsenSiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:22:39 --> ErrorException: Undefined variable $tanggal
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 134.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 134)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 19:38:08 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 19:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:01 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:08 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:11 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:13 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:15 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:16 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:10:17 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:14:13 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, string $tanggal) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:15:13 --> TypeError: CodeIgniter\Database\BaseBuilder::join(): Argument #3 ($type) must be of type string, array given, called in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('tb_siswa', 'tb_presensi_siswa.id_siswa = tb_siswa.id_siswa AND tb_presensi_siswa.tanggal = :tanggal:', [...], 'right')
+ 2 APPPATH\Models\PresensiSiswaModel.php(86): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:16:40 --> Error: Call to a member function join() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 88.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:18:12 --> TypeError: CodeIgniter\Database\BaseBuilder::join(): Argument #3 ($type) must be of type string, array given, called in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('tb_siswa', 'tb_presensi_siswa.id_siswa = tb_siswa.id_siswa AND tb_presensi_siswa.tanggal = :tanggal:', [...], 'LEFT')
+ 2 APPPATH\Models\PresensiSiswaModel.php(87): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:18:55 --> TypeError: CodeIgniter\Database\BaseBuilder::join(): Argument #4 ($escape) must be of type ?bool, array given, called in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('tb_siswa', 'tb_presensi_siswa.id_siswa = tb_siswa.id_siswa AND tb_presensi_siswa.tanggal = :tanggal:', 'LEFT', [...])
+ 2 APPPATH\Models\PresensiSiswaModel.php(87): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:18:56 --> TypeError: CodeIgniter\Database\BaseBuilder::join(): Argument #4 ($escape) must be of type ?bool, array given, called in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('tb_siswa', 'tb_presensi_siswa.id_siswa = tb_siswa.id_siswa AND tb_presensi_siswa.tanggal = :tanggal:', 'LEFT', [...])
+ 2 APPPATH\Models\PresensiSiswaModel.php(87): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:19:31 --> ErrorException: Undefined variable $idKelas
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 88.
+ 1 APPPATH\Models\PresensiSiswaModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idKelas', 'C:\\xampp\\absensi_kedensari1\\app\\Models\\PresensiSiswaModel.php', 88)
+ 2 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:20:40 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::getPresensiByKehadiran(string $idKehadiran, $tanggal, $idKelas) must be compatible with App\Models\PresensiInterface::getPresensiByKehadiran(string $idKehadiran, $tanggal)
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 20:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:21:40 --> ArgumentCountError: Too few arguments to function App\Models\PresensiSiswaModel::getPresensiByKehadiran(), 2 passed in C:\xampp\absensi_kedensari1\app\Controllers\Admin\Dashboard.php on line 71 and exactly 3 expected
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Models\PresensiSiswaModel.php on line 84.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(71): App\Models\PresensiSiswaModel->getPresensiByKehadiran('1', '2025-01-26')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:37:34 --> BadMethodCallException: Call to undefined method App\Models\PresensiSiswaModel::bind
+[Method: POST, Route: admin/laporan/siswa]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Models\PresensiSiswaModel.php(99): CodeIgniter\Model->__call('bind', [...])
+ 2 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-26 20:38:32 --> mysqli_sql_exception: Unknown column 'tb_kehadiran.keterangan' in 'field list' in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_sisw...', 0)
+#1 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_sisw...')
+#2 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_sisw...')
+#3 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_sisw...', Array, false)
+#4 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\absensi_kedensari1\app\Models\PresensiSiswaModel.php(99): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\absensi_kedensari1\app\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+#8 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+#9 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+#10 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\absensi_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absens...')
+#15 {main}
+CRITICAL - 2025-01-26 20:38:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+[Method: POST, Route: admin/laporan/siswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PresensiSiswaModel.php(99): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 20:38:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PresensiSiswaModel.php(99): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 20:38:32 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT 
+                   id_presensi, 
+                   id_siswa AS id_siswa_presensi, 
+                   tanggal, 
+                   jam_masuk, 
+                   jam_keluar, 
+                   id_kehadiran, 
+                   keterangan 
+               FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa_presensi`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PresensiSiswaModel.php(99): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-26 20:41:04 --> mysqli_sql_exception: Unknown column 'tb_kehadiran.keterangan' in 'field list' in C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_sisw...', 0)
+#1 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_sisw...')
+#2 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_sisw...')
+#3 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_sisw...', Array, false)
+#4 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\absensi_kedensari1\app\Models\PresensiSiswaModel.php(91): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\absensi_kedensari1\app\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+#8 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+#9 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+#10 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\absensi_kedensari1\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\absensi_kedensari1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absens...')
+#15 {main}
+CRITICAL - 2025-01-26 20:41:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+[Method: POST, Route: admin/laporan/siswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PresensiSiswaModel.php(91): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 20:41:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PresensiSiswaModel.php(91): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+CRITICAL - 2025-01-26 20:41:04 --> [Caused by] mysqli_sql_exception: Unknown column 'tb_kehadiran.keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = \'16\'
+ORDER BY `nama_siswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `tb_siswa`.`id_siswa`, `tb_siswa`.`nama_siswa`, `tb_presensi_siswa`.`tanggal`, `tb_presensi_siswa`.`jam_masuk`, `tb_presensi_siswa`.`jam_keluar`, `tb_presensi_siswa`.`id_kehadiran`, `tb_kehadiran`.`keterangan`
+FROM `tb_siswa`
+LEFT JOIN (SELECT * FROM tb_presensi_siswa WHERE tanggal = \'2025-01-01\') tb_presensi_siswa ON `tb_siswa`.`id_siswa` = `tb_presensi_siswa`.`id_siswa`
+LEFT JOIN `tb_kehadiran` ON `tb_presensi_siswa`.`id_kehadiran` = `tb_kehadiran`.`id_kehadiran`
+WHERE `tb_siswa`.`id_kelas` = :tb_siswa.id_kelas:
+ORDER BY `nama_siswa`', [...], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PresensiSiswaModel.php(91): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\GenerateLaporan.php(87): App\Models\PresensiSiswaModel->getPresensiByKelasTanggal('16', '2025-01-01')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\GenerateLaporan->generateLaporanSiswa()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\GenerateLaporan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:43:14 --> ErrorException: Undefined array key "id_kelas"
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Views\admin\absen\list-absen-siswa.php on line 19.
+ 1 APPPATH\Views\admin\absen\list-absen-siswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kelas"', 'C:\\xampp\\absensi_kedensari1\\app\\Views\\admin\\absen\\list-absen-siswa.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\absensi_kedensari1\\app\\Views\\admin\\absen\\list-absen-siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/absen/list-absen-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataAbsenSiswa.php(69): view('admin/absen/list-absen-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ambilDataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:43:22 --> ErrorException: Undefined array key "id_kelas"
+[Method: POST, Route: admin/absen-siswa]
+in APPPATH\Views\admin\absen\list-absen-siswa.php on line 19.
+ 1 APPPATH\Views\admin\absen\list-absen-siswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kelas"', 'C:\\xampp\\absensi_kedensari1\\app\\Views\\admin\\absen\\list-absen-siswa.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\absensi_kedensari1\\app\\Views\\admin\\absen\\list-absen-siswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/absen/list-absen-siswa', [], true)
+ 5 APPPATH\Controllers\Admin\DataAbsenSiswa.php(69): view('admin/absen/list-absen-siswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ambilDataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:43:46 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:46:26 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:46:54 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:49:54 --> ErrorException: Undefined variable $tanggal
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 151.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\absensi_kedensari1\\app\\Controllers\\Admin\\DataAbsenSiswa.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:51:04 --> Exception: Tanggal tidak ditemukan dalam request.
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 20:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 20:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 20:53:56 --> Exception: Tanggal tidak ditemukan dalam request.
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:04:52 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:04:59 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:05:06 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:05:12 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/simpan]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 156.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:10:59 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:12:15 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:18:29 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/absen-siswa/edit]
+in APPPATH\Controllers\Admin\DataAbsenSiswa.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->ubahKehadiran()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:22:05 --> ErrorException: Declaration of App\Models\PresensiSiswaModel::cekAbsen(int $idSiswa, ?string $tanggal = null): ?array must be compatible with App\Models\PresensiInterface::cekAbsen(string|int $id, CodeIgniter\I18n\Time|string $date)
+[Method: GET, Route: admin/absen-siswa]
+in APPPATH\Models\PresensiSiswaModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-26 21:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:26:15 --> Data diterima: {"idKehadiran":"4","idSiswa":"39","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:26:36 --> Data diterima: {"idKehadiran":"4","idSiswa":"39","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:27:18 --> Data diterima: {"idKehadiran":"1","idSiswa":"44","idKelas":"18","tanggal":"2025-01-25","jamMasuk":"07:00","jamKeluar":"11:00","keterangan":""}
+INFO - 2025-01-26 21:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:27:27 --> Data diterima: {"idKehadiran":"2","idSiswa":"46","idKelas":"18","tanggal":"2025-01-25","jamMasuk":"07:00","jamKeluar":"11:00","keterangan":""}
+INFO - 2025-01-26 21:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:27:32 --> Data diterima: {"idKehadiran":"3","idSiswa":"34","idKelas":"18","tanggal":"2025-01-25","jamMasuk":"07:00","jamKeluar":"11:00","keterangan":""}
+INFO - 2025-01-26 21:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:27:39 --> Data diterima: {"idKehadiran":"4","idSiswa":"45","idKelas":"18","tanggal":"2025-01-25","jamMasuk":"07:00","jamKeluar":"11:00","keterangan":""}
+INFO - 2025-01-26 21:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:28:15 --> Data diterima: {"idKehadiran":"4","idSiswa":"45","idKelas":"18","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:29:01 --> Data diterima: {"idKehadiran":"2","idSiswa":"38","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:29:15 --> Data diterima: {"idKehadiran":"2","idSiswa":"39","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:29:23 --> Data diterima: {"idKehadiran":"3","idSiswa":"38","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-26 21:29:30 --> Data diterima: {"idKehadiran":"4","idSiswa":"42","idKelas":"16","tanggal":"2025-01-25","jamMasuk":"07:00:00","jamKeluar":"11:00:00","keterangan":""}
+INFO - 2025-01-26 21:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:31:36 --> BadMethodCallException: Call to undefined method App\Models\PresensiSiswaModel::insertPresensi
+[Method: POST, Route: admin/absen-siswa/simpan]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(185): CodeIgniter\Model->__call('insertPresensi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')
+INFO - 2025-01-26 21:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 21:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 21:31:59 --> BadMethodCallException: Call to undefined method App\Models\PresensiSiswaModel::insertPresensi
+[Method: POST, Route: admin/absen-siswa/simpan]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Admin\DataAbsenSiswa.php(185): CodeIgniter\Model->__call('insertPresensi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DataAbsenSiswa->simpanAbsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DataAbsenSiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\absensi_kedensari1\\public\\index.php')

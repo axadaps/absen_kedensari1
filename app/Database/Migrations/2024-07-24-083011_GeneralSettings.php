@@ -40,13 +40,11 @@ class GeneralSettings extends Migration
             ],
         ]);
 
-        // primary key
         $this->forge->addKey('id', primary: TRUE);
 
 
         $this->forge->createTable('general_settings', TRUE);
         
-        // Insert Default Data
         $default['school_name'] = 'SDN Kedensari 1';
         $default['school_year'] = '2024/2025';
         $this->db->table('general_settings')->insert($default);
