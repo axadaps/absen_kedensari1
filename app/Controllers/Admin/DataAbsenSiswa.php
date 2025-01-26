@@ -138,15 +138,15 @@ class DataAbsenSiswa extends BaseController
                     $keterangan = 'Hadir';
                     break;
                 case '2':
-                    $keterangan = 'Izin';
+                    $keterangan = 'Sakit';
                     break;
                 case '3':
-                    $keterangan = 'Sakit';
+                    $keterangan = 'Izin';
                     break;
                 default:
                     $keterangan = 'Absen/Tanpa Keterangan';
              }
-
+             
              if (!empty($siswa['nama_siswa']) && !empty($siswa['no_hp'])) {
                   $pesan = "Yth. Wali Bapak/Ibu Wali Siswa, " . $siswa['nama_siswa'] . ".\n\n" .
                   "Kami informasikan bahwa Putra/Putri anda: \n\n" .

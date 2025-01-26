@@ -39,16 +39,6 @@ $routes->get('/admin/dashboard', 'Admin\Dashboard::index', ['filter' => 'auth'])
 $routes->get('petugas/dashboard', 'PetugasController::index');
 
 
-// $routes->group('scan', function (RouteCollection $routes) {
-//    $routes->get('', 'Scan::index');
-//    $routes->get('masuk', 'Scan::index/Masuk');
-//    $routes->get('pulang', 'Scan::index/Pulang');
-
-//    $routes->post('cek', 'Scan::cekKode');
-// });
-
-
-
 // Admin
 $routes->group('admin', ['filter' => 'auth'], function (RouteCollection $routes) {
 

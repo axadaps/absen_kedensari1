@@ -40,7 +40,7 @@
                     <?php $no = 1; ?>
                     <?php foreach ($data as $value) : ?>
                         <?php
-                        $idKehadiran = intval($value['id_kehadiran'] ?? ($lewat ? 5 : 4));
+                        $idKehadiran = intval($value['id_kehadiran'] ?? ($lewat ? 5 : 1));
                         $kehadiran = kehadiran($idKehadiran);
                         ?>
                         <tr>
