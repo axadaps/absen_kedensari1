@@ -71,17 +71,22 @@ class DataAbsenSiswa extends BaseController
 
    public function ambilKehadiran()
    {
-      $idPresensi = $this->request->getVar('id_presensi');
-      $idSiswa = $this->request->getVar('id_siswa');
-
-      $data = [
-         'presensi' => $this->presensiSiswa->getPresensiById($idPresensi),
-         'listKehadiran' => $this->kehadiranModel->getAllKehadiran(),
-         'data' => $this->siswaModel->getSiswaById($idSiswa)
-      ];
-
-      return view('admin/absen/ubah-kehadiran-modal', $data);
-   }
+       $idPresensi = $this->request->getVar('id_presensi');
+       $idSiswa = $this->request->getVar('id_siswa');
+       $presensi = $this->presensiSiswa->getPresensiById($idPresensi);
+   
+       if (empty($presensi) || empty($presensi['id_kehadiran'])) {
+           $presensi['id_kehadiran'] = '1';
+       }
+   
+       $data = [
+           'presensi' => $presensi,
+           'listKehadiran' => $this->kehadiranModel->getAllKehadiran(),
+           'data' => $this->siswaModel->getSiswaById($idSiswa)
+       ];
+   
+       return view('admin/absen/ubah-kehadiran-modal', $data);
+   }  
 
    public function ubahKehadiran()
    {

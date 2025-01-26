@@ -19,46 +19,13 @@ class CreateDB extends Migration
             (3, 'Izin'),
             (4, 'Tanpa keterangan');");
 
-        $this->forge->getConnection()->query("INSERT INTO tb_jurusan (jurusan) VALUES
-            ('OTKP'),
-            ('BDP'),
-            ('AKL'),
-            ('RPL');");
-
-        $this->forge->getConnection()->query("INSERT INTO tb_kelas (kelas, id_jurusan) VALUES
-            ('X', 1),
-            ('X', 2),
-            ('X', 3),
-            ('X', 4),
-            ('XI', 1),
-            ('XI', 2),
-            ('XI', 3),
-            ('XI', 4),
-            ('XII', 1),
-            ('XII', 2),
-            ('XII', 3),
-            ('XII', 4);");
-
-        $this->forge->getConnection()->query("CREATE TABLE tb_guru (
-            id_guru int(11) NOT NULL,
-            nuptk varchar(24) NOT NULL,
-            nama_guru varchar(255) NOT NULL,
-            jenis_kelamin ENUM('Laki-laki','Perempuan') NOT NULL,
-            alamat text NOT NULL,
-            no_hp varchar(32) NOT NULL,
-            unique_code varchar(64) NOT NULL
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
-
-        $this->forge->getConnection()->query("CREATE TABLE tb_presensi_guru (
-            id_presensi int(11) NOT NULL,
-            id_guru int(11) DEFAULT NULL,
-            tanggal date NOT NULL,
-            jam_masuk time DEFAULT NULL,
-            jam_keluar time DEFAULT NULL,
-            id_kehadiran int(11) NOT NULL,
-            keterangan varchar(255) NOT NULL
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-                        ");
+        $this->forge->getConnection()->query("INSERT INTO tb_kelas (kelas) VALUES
+            ('I'),
+            ('II'),
+            ('III'),
+            ('IV'),
+            ('V'),
+            ('VI');");
 
         $this->forge->getConnection()->query("CREATE TABLE tb_siswa (
             id_siswa int(11) NOT NULL,
@@ -88,11 +55,6 @@ class CreateDB extends Migration
         $this->forge->getConnection()->query("ALTER TABLE tb_kehadiran
             ADD PRIMARY KEY (id_kehadiran);");
 
-        $this->forge->getConnection()->query("ALTER TABLE tb_presensi_guru
-            ADD PRIMARY KEY (id_presensi),
-            ADD KEY id_kehadiran (id_kehadiran),
-            ADD KEY id_guru (id_guru);");
-
         $this->forge->getConnection()->query("ALTER TABLE tb_presensi_siswa
             ADD PRIMARY KEY (id_presensi),
             ADD KEY id_siswa (id_siswa),
@@ -104,24 +66,14 @@ class CreateDB extends Migration
             ADD UNIQUE KEY unique_code (unique_code),
             ADD KEY id_kelas (id_kelas);");
 
-        $this->forge->getConnection()->query("ALTER TABLE tb_guru
-            MODIFY id_guru int(11) NOT NULL AUTO_INCREMENT;");
-
         $this->forge->getConnection()->query("ALTER TABLE tb_kehadiran
             MODIFY id_kehadiran int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;");
-
-        $this->forge->getConnection()->query("ALTER TABLE tb_presensi_guru
-            MODIFY id_presensi int(11) NOT NULL AUTO_INCREMENT;");
 
         $this->forge->getConnection()->query("ALTER TABLE tb_presensi_siswa
             MODIFY id_presensi int(11) NOT NULL AUTO_INCREMENT;");
 
         $this->forge->getConnection()->query("ALTER TABLE tb_siswa
             MODIFY id_siswa int(11) NOT NULL AUTO_INCREMENT;");
-
-        $this->forge->getConnection()->query("ALTER TABLE tb_presensi_guru
-            ADD CONSTRAINT tb_presensi_guru_ibfk_2 FOREIGN KEY (id_kehadiran) REFERENCES tb_kehadiran (id_kehadiran),
-            ADD CONSTRAINT tb_presensi_guru_ibfk_3 FOREIGN KEY (id_guru) REFERENCES tb_guru (id_guru) ON DELETE SET NULL;");
 
         $this->forge->getConnection()->query("ALTER TABLE tb_presensi_siswa
             ADD CONSTRAINT tb_presensi_siswa_ibfk_2 FOREIGN KEY (id_kehadiran) REFERENCES tb_kehadiran (id_kehadiran),
@@ -136,9 +88,7 @@ class CreateDB extends Migration
     {
         $tables = [
             'tb_presensi_siswa',
-            'tb_presensi_guru',
             'tb_siswa',
-            'tb_guru',
             'tb_kehadiran',
         ];
 

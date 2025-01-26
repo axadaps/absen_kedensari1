@@ -19,11 +19,7 @@ class CreateKelasTable extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => 32,
             ],
-            'id_jurusan' => [
-                'type'           => 'INT',
-                'constraint'     => 11,
-                'unsigned'       => true,
-            ],
+
             'created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NULL',
             'updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NULL',
             'deleted_at TIMESTAMP NULL',
@@ -31,9 +27,6 @@ class CreateKelasTable extends Migration
 
         // primary key
         $this->forge->addKey('id_kelas', primary: TRUE);
-
-        // id_jurusan foreign key
-        $this->forge->addForeignKey('id_jurusan', 'tb_jurusan', 'id', 'CASCADE', 'NO ACTION');
 
         $this->forge->createTable('tb_kelas', TRUE);
     }
