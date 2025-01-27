@@ -18,18 +18,6 @@ class AddSuperadmin extends Migration
                 'after'          => 'username'
             ]
         ]);
-
-        // INSERT INITIAL SUPERADMIN
-        $email = 'adminsuper@gmail.com';
-        $username = 'superadmin';
-        $password = 'superadmin';
-
-        $encryptedPassword = Password::hash($password);
-
-        $this->forge->getConnection()->query(
-            "INSERT INTO users (email, username, is_superadmin, password_hash, active) 
-            VALUES ('$email', '$username', 1, '$encryptedPassword', 1)"
-        );
     }
 
     public function down()

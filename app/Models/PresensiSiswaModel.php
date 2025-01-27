@@ -92,15 +92,15 @@ class PresensiSiswaModel extends Model implements PresensiInterface
 
       if ($idKehadiran == '4') {
          $result = $this->findAll();
-
          $filteredResult = [];
-
+         
          foreach ($result as $value) {
-            if ($value['id_kehadiran'] != ('1' || '2' || '3')) {
-               array_push($filteredResult, $value);
-            }
+               // Check if id_kehadiran is null or not in [1,2,3]
+               if (!isset($value['id_kehadiran']) || 
+                  !in_array($value['id_kehadiran'], ['1', '2', '3'])) {
+                  array_push($filteredResult, $value);
+               }
          }
-
          return $filteredResult;
       } else {
          $this->where(['tb_presensi_siswa.id_kehadiran' => $idKehadiran]);
