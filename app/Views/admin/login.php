@@ -50,9 +50,9 @@
                         </div>
                         <!-- <button type="submit" class="btn btn-primary col-md-12">Login</button> -->
                         <?php if ($config->allowRemembering) : ?>
-                           <div class="form-check">
-                              <label class="form-check-label">
-                                 <input type="checkbox" name="remember" class="form-check-input" <?php if (old('remember')) : ?> checked <?php endif ?>>
+                           <div class="form-check mt-3">
+                              <input type="checkbox" id="remember" name="remember" class="form-check-input" <?php if (old('remember')) : ?> checked <?php endif ?>>
+                              <label class="form-check-label" for="remember">
                                  <?= lang('Auth.rememberMe') ?>
                               </label>
                            </div>

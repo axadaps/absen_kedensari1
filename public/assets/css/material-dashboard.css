@@ -2506,37 +2506,65 @@ select.form-control-lg:not([size]):not([multiple]),
 }
 
 .form-check {
-  position: relative;
-  display: block;
-  padding-left: 1.25rem;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important; /* Memberikan jarak natural antara checkbox dan label */
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
-.form-check-input {
-  position: absolute;
-  margin-top: 0.3rem;
-  margin-left: -1.25rem;
+.form-check-input,
+input[type="checkbox"].form-check-input {
+  /* Reset tampilan default */
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 1 !important;
+  margin: 0 !important;
+
+  /* Ukuran optimal */
+  width: 14px !important;
+  height: 14px !important;
+
+  /* Pastikan tampil sebagai checkbox */
+  -webkit-appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+  appearance: checkbox !important;
 }
 
-.form-check-input:disabled ~ .form-check-label {
-  color: #6c757d;
-}
-
+/* Style label agar sejajar dengan checkbox */
 .form-check-label {
-  margin-bottom: 0;
+  color: #aaaaaa !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
+/* Jika checkbox ada di dalam form-check-inline */
 .form-check-inline {
-  display: inline-flex;
-  align-items: center;
-  padding-left: 0;
-  margin-right: 0.75rem;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+  margin-right: 0.75rem !important;
 }
 
 .form-check-inline .form-check-input {
-  position: static;
-  margin-top: 0;
-  margin-right: 0.3125rem;
-  margin-left: 0;
+  margin-right: 0.3125rem !important;
+}
+
+.form-check-input:disabled ~ .form-check-label {
+  color: #6c757d !important;
+}
+
+/* Menghapus elemen tambahan yang tidak diperlukan */
+.form-check .form-check-sign,
+.form-check .check,
+.form-check::before,
+.form-check::after {
+  display: none !important;
+  opacity: 0 !important;
+  content: none !important;
 }
 
 .valid-feedback {
