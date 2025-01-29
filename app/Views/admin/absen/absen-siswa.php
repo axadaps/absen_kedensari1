@@ -83,8 +83,8 @@
       if (lastIdKelas != null && lastKelas != null) getSiswa(lastIdKelas, lastKelas);
    }
 
-   function getSiswa(idKelas, kelas) {
-      var tanggal = $('#tanggal').val();
+   function getSiswa(idKelas, kelas, withScroll = true) {
+   var tanggal = $('#tanggal').val();
 
       updateBtn(idKelas);
 
@@ -97,12 +97,13 @@
             'tanggal': tanggal
          },
          success: function(response, status, xhr) {
-            // console.log(status);
             $('#dataSiswa').html(response);
 
-            $('html, body').animate({
-               scrollTop: $("#dataSiswa").offset().top
-            }, 500);
+            if (withScroll) {
+               $('html, body').animate({
+                  scrollTop: $("#dataSiswa").offset().top
+               }, 500);
+            }
          },
          error: function(xhr, status, thrown) {
             console.log(thrown);
@@ -147,7 +148,6 @@
 
    function ubahKehadiran() {
       var tanggal = $('#tanggal').val();
-
       var form = $('#formUbah').serializeArray();
 
       form.push({
@@ -155,17 +155,13 @@
          value: tanggal
       });
 
-      console.log(form);
-
       jQuery.ajax({
          url: "<?= base_url('/admin/absen-siswa/edit'); ?>",
          type: 'post',
          data: form,
          success: function(response, status, xhr) {
-            // console.log(status);
-
             if (response['status']) {
-               getSiswa(lastIdKelas, lastKelas);
+               getSiswa(lastIdKelas, lastKelas, false); // Tambahkan parameter false
                alert('Berhasil ubah kehadiran : ' + response['nama_siswa']);
             } else {
                alert('Gagal ubah kehadiran : ' + response['nama_siswa']);

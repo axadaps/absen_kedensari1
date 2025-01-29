@@ -12,6 +12,47 @@ function setSerializedData(serializedData) {
   return serializedData;
 }
 
+function ubahKehadiran() {
+  var formData = $("#formUbah").serialize(); // Ambil data dari form
+
+  $.ajax({
+      url: "<?= base_url('absensi/ubahKehadiran'); ?>", // Sesuaikan dengan URL di CodeIgniter
+      type: "POST",
+      data: formData,
+      dataType: "json",
+      success: function(response) {
+          if (response.status) {
+              // Tutup modal
+              $("#modalUbah").modal("hide");
+
+              // Perbarui tampilan data tanpa reload halaman
+              $("#dataKehadiran").load(location.href + " #dataKehadiran");
+
+              // Tampilkan notifikasi jika diperlukan
+              Swal.fire({
+                  title: "Berhasil!",
+                  text: response.nama_siswa + " berhasil diubah kehadirannya.",
+                  icon: "success",
+                  timer: 2000
+              });
+          } else {
+              Swal.fire({
+                  title: "Gagal!",
+                  text: "Gagal mengubah kehadiran.",
+                  icon: "error"
+              });
+          }
+      },
+      error: function() {
+          Swal.fire({
+              title: "Error!",
+              text: "Terjadi kesalahan saat mengubah kehadiran.",
+              icon: "error"
+          });
+      }
+  });
+}
+
 //delete item
 function deleteItem(url, id, message) {
   swal({
