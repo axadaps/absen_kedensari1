@@ -27,10 +27,10 @@
                                                 <i class="material-icons">cloud_upload</i>
                                             </p>
                                             <h3 class="text-muted">Drag &amp; drop files here</h3>
-                                            <div class="btn btn-primary mb-5">
+                                            <div class="btn btn-primary mb-5" id="upload-btn">
                                                 <span>Open the file Browser</span>
-                                                <input type="file" title='Click to add Files' />
                                             </div>
+                                            <input type="file" id="fileInput" style="display: none;" />
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
@@ -158,6 +158,12 @@
             }
         });
     });
+    
+        $('#upload-btn').on('click', function() {
+        $('#fileInput').click();
+    });
+
+
 
     function addCSVItem(numberOfItems, txtFileName, index) {
         if (index <= numberOfItems) {

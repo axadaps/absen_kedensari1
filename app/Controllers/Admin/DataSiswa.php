@@ -242,67 +242,108 @@ class DataSiswa extends BaseController
    /**
     * Generate CSV Object Post
     */
-   public function generateCSVObjectPost()
-   {
-      $uploadModel = new UploadModel();
-      //delete old txt files
-      $files = glob(FCPATH . 'uploads/tmp/*.txt');
-      if (!empty($files)) {
-         foreach ($files as $item) {
-            @unlink($item);
-         }
-      }
-      $file = $uploadModel->uploadCSVFile('file');
-      if (!empty($file) && !empty($file['path'])) {
-         $obj = $this->siswaModel->generateCSVObject($file['path']);
-         if (!empty($obj)) {
-            $data = [
-               'result' => 1,
-               'numberOfItems' => $obj->numberOfItems,
-               'txtFileName' => $obj->txtFileName,
+    public function generateCSVObjectPost()
+    {
+        $uploadModel = new UploadModel();
+        
+        // Hapus file TXT lama di direktori sementara
+        $files = glob(FCPATH . 'uploads/tmp/*.txt');
+        if (!empty($files)) {
+            foreach ($files as $item) {
+                @unlink($item);
+            }
+        }
+    
+        // Upload file CSV
+        $file = $uploadModel->uploadCSVFile('file');
+    
+        if (!empty($file) && !empty($file['path'])) {
+            // Tambahan: Bypass SSL saat membaca file (jika diperlukan)
+            $contextOptions = [
+                "ssl" => [
+                    "verify_peer" => false,
+                    "verify_peer_name" => false
+                ]
             ];
-            echo json_encode($data);
-            exit();
-         }
-      }
-      echo json_encode(['result' => 0]);
-   }
+            $context = stream_context_create($contextOptions);
+    
+            $csvData = file_get_contents(FCPATH . $file['path'], false, $context);
+            if ($csvData !== false) {
+                $obj = $this->siswaModel->generateCSVObject($file['path']);
+                if (!empty($obj)) {
+                    $data = [
+                        'result' => 1,
+                        'numberOfItems' => $obj->numberOfItems,
+                        'txtFileName' => $obj->txtFileName,
+                    ];
+                    echo json_encode($data);
+                    exit();
+                }
+            }
+        }
+    
+        echo json_encode(['result' => 0]);
+   }    
 
    /**
     * Import CSV Item Post
     */
-   public function importCSVItemPost()
-   {
-      $txtFileName = inputPost('txtFileName');
-      $index = inputPost('index');
-      $siswa = $this->siswaModel->importCSVItem($txtFileName, $index);
-      if (!empty($siswa)) {
-         $data = [
-            'result' => 1,
-            'siswa' => $siswa,
-            'index' => $index
-         ];
-         echo json_encode($data);
-      } else {
-         $data = [
-            'result' => 0,
-            'index' => $index
-         ];
-         echo json_encode($data);
-      }
-   }
+    public function importCSVItemPost()
+    {
+        $txtFileName = $_POST['txtFileName'] ?? null;
+        $index = $_POST['index'] ?? 0;
+    
+        if (!$txtFileName) {
+            echo json_encode(['result' => 0, 'error' => 'File tidak ditemukan']);
+            return;
+        }
+    
+        // Bypass SSL verification saat membaca file CSV jika diperlukan
+        $contextOptions = [
+            "ssl" => [
+                "verify_peer" => false,
+                "verify_peer_name" => false
+            ]
+        ];
+        $context = stream_context_create($contextOptions);
+    
+        $siswa = $this->siswaModel->importCSVItem($txtFileName, $index);
+    
+        if (!empty($siswa)) {
+            $data = [
+                'result' => 1,
+                'siswa' => $siswa,
+                'index' => $index
+            ];
+        } else {
+            $data = [
+                'result' => 0,
+                'index' => $index
+            ];
+        }
+    
+        echo json_encode($data);
+    }    
 
    /**
     * Download CSV File Post
     */
-   public function downloadCSVFilePost()
-   {
-      $submit = inputPost('submit');
-      $response = \Config\Services::response();
-      if ($submit == 'csv_siswa_template') {
-         return $response->download(FCPATH . 'assets/file/csv_siswa_template.csv', null);
-      }
-   }
+    public function downloadCSVFilePost()
+    {
+        $submit = $_POST['submit'] ?? null;
+        $response = \Config\Services::response();
+    
+        if ($submit == 'csv_siswa_template') {
+            // Pastikan file bisa diakses tanpa SSL issue
+            $filePath = FCPATH . 'assets/file/csv_siswa_template.csv';
+            
+            if (file_exists($filePath)) {
+                return $response->download($filePath, null);
+            } else {
+                return $response->setStatusCode(404)->setBody("File tidak ditemukan");
+            }
+        }
+    }    
 
    /**
     * Send Notifikasi Whatsapp
